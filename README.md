@@ -5,6 +5,7 @@ Esta es la primera versión de mi aplicación, donde estoy aplicando mis conocim
 ## 🛠️ Tecnologías utilizadas
 
 * **Base de Datos:** sqlite
+* backend con spring boot
 
 ## 📋 Características actuales
 * Estructura inicial del servicio y repositorio de Publicaciones.
@@ -14,3 +15,4 @@ Esta es la primera versión de mi aplicación, donde estoy aplicando mis conocim
 1. Clonar el repositorio.
 2. Ejecutar `npm install` para instalar dependencias.
 3. Configurar las variables de entorno.
+4. ejecuta el backend con mnv springboot:run
