@@ -1,0 +1,104 @@
+{
+  "tickets": [
+    {
+      "id": "TK-001",
+      "titulo": "Fallo crítico en pasarela de pagos",
+      "cliente": "E-Commerce Solutions",
+      "descripcion": "Los clientes reportan que al intentar finalizar la compra con tarjeta de crédito, el sistema devuelve un error 500. Se ha verificado que el problema ocurre solo en la API de producción. Se requiere revisión urgente de los logs de la pasarela Stripe.",
+      "prioridad": "Alta",
+      "asignado": "Carlos Mendoza",
+      "fecha": "2026-01-14",
+      "estado": "Abierto"
+    },
+    {
+      "id": "TK-002",
+      "titulo": "Lentitud en la generación de reportes PDF",
+      "cliente": "Inversiones Globales",
+      "descripcion": "El módulo de exportación de nómina está tardando más de 2 minutos en generar el archivo PDF cuando el número de empleados supera los 500. Es necesario optimizar la consulta SQL o implementar una tarea en segundo plano (Worker).",
+      "prioridad": "Media",
+      "asignado": "Lucía Fernández",
+      "fecha": "2026-01-13",
+      "estado": "En Progreso"
+    },
+    {
+      "id": "TK-003",
+      "titulo": "Actualización de certificados SSL",
+      "cliente": "Servicios Digitales S.A.",
+      "descripcion": "Los certificados SSL del subdominio api.empresa.com vencerán en 48 horas. Se deben renovar a través de Let's Encrypt y verificar la propagación en los balanceadores de carga de AWS.",
+      "prioridad": "Alta",
+      "asignado": "Andrés Duarte",
+      "fecha": "2026-01-15",
+      "estado": "Abierto"
+    },
+    {
+      "id": "TK-004",
+      "titulo": "Error de visualización en Dashboard móvil",
+      "cliente": "Retail App",
+      "descripcion": "En dispositivos iOS con pantalla pequeña, los gráficos de barras se solapan con el menú lateral. Es necesario ajustar los media queries en el archivo de estilos globales y probar en Safari Mobile.",
+      "prioridad": "Baja",
+      "asignado": "Juan Pérez",
+      "fecha": "2026-01-12",
+      "estado": "Cerrado"
+    },
+    {
+      "id": "TK-005",
+      "titulo": "Sincronización fallida con CRM externo",
+      "cliente": "Logística Express",
+      "descripcion": "El webhook que envía los datos de nuevos clientes al CRM de Salesforce está fallando intermitentemente. Parece ser un problema de autenticación OAuth2 que caduca antes de tiempo. Se necesita revisar el flujo de refresco del Token.",
+      "prioridad": "Media",
+      "asignado": "Mariana Gómez",
+      "fecha": "2026-01-15",
+      "estado": "En Progreso"
+    },
+    {
+      "id": "8ddb",
+      "titulo": "ewdfwfd",
+      "cliente": "ewfdsf",
+      "descripcion": "wefdw",
+      "prioridad": "media",
+      "asignado": "fewfdsf",
+      "fecha": "2026-01-15",
+      "estado": "Abierto"
+    },
+    {
+      "id": "d793",
+      "titulo": "tgghh",
+      "cliente": "gtfvguvhvhj",
+      "descripcion": "fytfgyuhgbhbjk",
+      "prioridad": "alta",
+      "asignado": "yuvjhvbhj",
+      "fecha": "2026-01-15",
+      "estado": "Abierto"
+    },
+    {
+      "id": "6286",
+      "titulo": "wTGREAGVAE",
+      "cliente": "RGVFDSG",
+      "descripcion": "AERVDSFG",
+      "prioridad": "media",
+      "asignado": "GREGVRFGVRE",
+      "fecha": "2026-01-15",
+      "estado": "Abierto"
+    },
+    {
+      "id": "c8ad",
+      "titulo": "rfwegfv",
+      "cliente": "frweqa",
+      "descripcion": "gsdrfgvre",
+      "prioridad": "alta",
+      "asignado": "ffrwe",
+      "fecha": "2026-01-15",
+      "estado": "Abierto"
+    },
+    {
+      "id": "ff7a",
+      "titulo": "yhrtsbgt",
+      "cliente": "bfgdshh",
+      "descripcion": "thhhhgrfhbvfnfgf",
+      "prioridad": "media",
+      "asignado": "tgjhndfytrgbg",
+      "fecha": "2026-01-17",
+      "estado": "Abierto"
+    }
+  ]
+}
