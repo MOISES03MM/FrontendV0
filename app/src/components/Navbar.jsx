@@ -19,7 +19,7 @@ const Navbar = ({ abrir }) => {
       
       <div className="flex items-center gap-3">
         <Link to="/buscar">
-          <button className="flex items-center gap-2 px-5 py-2.5 border border-gray-200 rounded-lg text-gray-700 font-medium hover:bg-gray-50 transition-colors">
+          <button className="flex items-center gap-2 px-5 py-2.5 border border-gray-400 rounded-lg text-gray-700 font-medium hover:bg-gray-50 transition-colors">
             <Search size={18} className="text-gray-500" />
             <span>Buscar Ticket</span>
           </button>
